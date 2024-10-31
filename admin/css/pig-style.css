@@ -1,0 +1,52 @@
+.selected-groups-list {
+    margin-left: 14px;
+    font-size: 12px;
+    overflow: auto;
+}
+
+.selected-groups-list span {
+    margin-right: 25px;
+    font-size: 13px;
+    line-height: 1.8em;
+    cursor: default;
+    max-width: 100%;
+    text-overflow: ellipsis;
+}
+
+.selected-groups-list span a {
+    margin: 1px 0 0 -17px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    text-indent: 0;
+    position: absolute;
+}
+
+.selected-groups-list span, .selected-groups-list span a {
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+
+.selected-groups-list  span a:before {
+    margin: 1px 0;
+}
+
+.selected-groups-list span a:hover:before {
+    color: #c00;
+}
+
+.selected-groups-list span a:before {
+    background: 0 0;
+    color: #b4b9be;
+    content: "\f153";
+    display: block;
+    font: 400 16px/20px dashicons;
+    speak: none;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
